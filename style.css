@@ -1,0 +1,128 @@
+.nav-bar{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.logo{
+  text-decoration:solid;
+  font-weight: 200;
+  font-size: 60px;
+  color: white;
+}
+  
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+li{
+  list-style: none;
+  margin: 14px;
+  color: white;
+}
+.hero{
+  background: url(download.jpeg) no-repeat;
+  height: 300px;
+  min-width: 650px;
+  border: radius 5%;
+  background-size:cover ;
+}
+  .hero-section{
+    background-color: rgb(237, 237, 243);
+    margin: 4%;
+    display: flex;
+    border-radius: 5%;
+    flex-flow: row wrap;
+    justify-content: ;
+
+}
+.hero-text{
+    padding: 2%;
+    color: rgb(8, 2, 2);
+    background-color: rgb(240, 239, 239);
+}
+
+@media (max-width:970px) {
+    .hero{
+        height: 30px;
+        min-width: 30px;
+    }
+    
+   .hero{
+        
+        background-color: beige;
+        height: 500px;
+        min-width: 850px;
+        border-radius: 5%;
+    }
+    
+}
+.main{
+    border: 0px  rgb(248, 248, 9) solid;
+    background-color: rgb(219, 253, 232);
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+      gap: 5px;
+      height: auto;
+
+    
+}
+
+.sub{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+     width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0%;
+    gap: 0px;
+    background-color: white;
+    border: 2px rgb(195, 193, 197) solid;
+    
+}
+.sub:hover{
+    border: 2px pink solid;
+    
+    background-color: rgb(240, 223, 226);
+}
+.shoes{
+    margin: 0%;
+    max-height: 200px;
+    width: 300px;
+    border: 1px white outset;
+    border-radius: 5%;
+    
+  
+}
+
+
+
+button{
+    background-color: rgb(0, 0, 0);
+    color: white
+}
+detail{
+padding: 2%;
+
+}
+    social-icons{
+      display:inline-block;
+      text-align: center;
+      margin: 10px;
+      color:inherit;
+    
+}
+footer{
+  background-color: rgb(24, 1, 2);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin: top 5px; ;
+}
+body{
+  background-image: url(wallpaper.jpg);
+}
